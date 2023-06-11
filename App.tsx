@@ -10,6 +10,7 @@ import * as SplashScreen from 'expo-splash-screen'
 
 import { SignIn } from './src/screens/SignIn';
 import { Background } from './src/components/Background';
+import { Home } from './src/screens/Home';
 
 // esse componente manda o usuário para SplashScreen do aplicativo
 // usamos como forma de só rodar o app após o carregamento das fontes
@@ -40,7 +41,8 @@ export default function App() {
         backgroundColor='transparent'
         translucent
       />
-      <SignIn/>
+      {/* <SignIn/> */}
+      <Home/>
     </Background>
   );
 }
