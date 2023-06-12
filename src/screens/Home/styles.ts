@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: theme.space.x3,
     flexDirection: 'row',
     justifyContent: 'space-between',
+    alignItems: 'center',
     marginTop: getStatusBarHeight() + 26,
     marginBottom: theme.space.x5,
   }

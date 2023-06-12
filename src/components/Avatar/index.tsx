@@ -10,12 +10,12 @@ type AvatarProps = {
 }
 
 export function Avatar({urlImage}: AvatarProps) {
-  const {secondary100, secondary80} = theme.colors
+  const {secondary50, secondary70} = theme.colors
 
   return(
     <LinearGradient 
       style={styles.container}
-      colors={[secondary80, secondary100]}
+      colors={[secondary70, secondary50]}
     >
       <Image
         source={{ uri: urlImage}}
