@@ -3,7 +3,10 @@ import { theme } from "../../global/styles/theme";
 
 export const styles = StyleSheet.create({
   container: {
-    minHeight: 120,
-    maxHeight: 120
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: "space-between",
+    flexDirection: 'row',
+    paddingHorizontal: theme.space.x3
   }
 })

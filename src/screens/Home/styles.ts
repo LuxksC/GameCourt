@@ -15,6 +15,13 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: getStatusBarHeight() + 26,
     marginBottom: theme.space.x5,
-  }
+  },
 
+  content: {
+    marginTop: theme.space.x4
+  },
+
+  matchesList: {
+    marginTop: theme.space.x4,
+  }
 })
